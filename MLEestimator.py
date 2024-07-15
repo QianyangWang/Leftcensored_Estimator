@@ -49,6 +49,7 @@ if __name__ == "__main__":
 
     # set censoring limits
     lower_limit = np.random.randint(3,5,1000)
+    #lower_limit = np.ones(1000) * 5
 
     args = np.where(samples <= lower_limit)
 
@@ -65,5 +66,5 @@ if __name__ == "__main__":
     plt.hist(new_samples, color="r", histtype="step", label="After Estimation", range=(0, np.max(samples)), bins=50,
              linestyle="--")
     plt.legend()
-    plt.savefig("res.jpg")
+    plt.savefig("resMLE.jpg")
 

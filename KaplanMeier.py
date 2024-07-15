@@ -64,7 +64,8 @@ if __name__ == "__main__":
     samples = gamma.rvs(model_shape, loc = 0,scale=model_scale, size=size)
 
     # set censoring limits
-    lower_limit = np.random.randint(2,4,1000)
+    #lower_limit = np.random.randint(2,4,1000)
+    lower_limit = np.ones(1000) * 5
 
     args = np.where(samples <= lower_limit)
 
@@ -82,4 +83,4 @@ if __name__ == "__main__":
     plt.hist(new_samples, color="r", histtype="step", label="After Estimation", range=(0, np.max(samples)), bins=50,
              linestyle="--")
     plt.legend()
-    plt.savefig("res.jpg")
+    plt.savefig("resKM2.jpg")
