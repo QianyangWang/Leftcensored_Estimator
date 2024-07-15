@@ -12,8 +12,8 @@ Here is an attempt to extensively use these methods to generate values for those
 
 ## Major Dependencies
 
-scipy 1.13.1 (class "CensoredData" is required)
-numpy
+scipy 1.13.1 (class "CensoredData" is required)\n
+numpy\n
 lifelines
 
 ## Maximum Likelihood Estimation (MLE)
