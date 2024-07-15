@@ -41,3 +41,9 @@ With a unique LOD:
 With various LODs:
 
 <img src="pics/resKM1.jpg" alt="resKM1" style="zoom:50%;" />
+
+## Reference
+
+1. Joachim, P., 2016. Imputing defensible values for left-censored ‘below level of quantitation’ (LoQ) biomarker measurements. Journal of Breath Research 10 (2016) 045001.
+2. Niloofar, S., Jean-Sébastien, D., Shoja’eddin C., 2015.  Estimating the mean and standard deviation of environmental data with below detection limit observations: Considering highly skewed data and model misspecification. Chemosphere 138 (2015) 599-608. 
+3. Mustafa, T., Beyza E., Yasemin Y. (2017). Evaluating Left-Censored Data Through Substitution, Parametric, Semi-parametric, and Nonparametric Methods: A Simulation Study. Interdiscip Sci Comput Life Sci.  https://doi.org/10.1007/s12539-015-0132-9.
